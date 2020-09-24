@@ -11,7 +11,7 @@ mainWindow.title("Grid Demo")
 mainWindow.geometry('640x480-8-200')
 mainWindow['padx'] = 8
 
-label= tkinter.Label(mainWindow, text="Tkinter Grid Demo")
+label = tkinter.Label(mainWindow, text="Tkinter Grid Demo")
 label.grid(row=0, column=0, columnspan=3)
 
 mainWindow.columnconfigure(0, weight=100)
